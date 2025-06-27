@@ -63,15 +63,15 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="relative overflow-hidden pt-8 md:pt-35 pb-0"
-      style={{ marginBottom: 0 }}
+      className="relative overflow-hidden pt-16 md:pt-35 pb-0"
+      style={{ marginBottom: 0,  marginTop: 0 }}
     >
-      <div className="absolute top-0 left-0 z-10">
+      {/* <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="" />
-      </div>
+      </div> */}
 
-      <div className="home-layout flex flex-col md:flex-row items-center md:items-start">
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+      <div className="home-layout flex flex-col md:flex-row items-start md:items-start">
+        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5 !mb-20">
           <div className="flex flex-col gap-7">
             <div className="home-text">
               <h1>
@@ -110,7 +110,7 @@ const Home = () => {
           </div>
         </header>
 
-        <figure className="relative w-full md:w-auto flex items-center justify-center md:justify-end mt-10 md:mt-0">
+        <figure className="relative w-full md:w-auto flex items-center justify-center md:justify-end !mt-0">
           <div
             className="
               w-[70vw] max-w-[320px] min-w-[140px] aspect-square

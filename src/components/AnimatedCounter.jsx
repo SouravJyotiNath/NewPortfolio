@@ -85,7 +85,7 @@ const AnimatedCounter = () => {
   }, []);
 
   return (
-    <div className="padding-x-lg mt-40 sm:mt-50 xl:-mt-30">
+    <div className="padding-x-lg mt-40 sm:-mt-25 xl:-mt-30">
       <div className="counter-row mx-auto flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8 w-full max-w-4xl">
         {/* Time on Page */}
         <div className="counter-box bg-gradient-to-br from-blue-50 via-white to-blue-100 px-6 sm:px-8 py-4 rounded-xl shadow-lg flex flex-col items-center min-w-[120px] w-full sm:w-auto border border-blue-100 mb-4 sm:mb-0">
