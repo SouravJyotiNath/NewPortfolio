@@ -781,9 +781,9 @@ section {
 }
 
 
-@media (min-width: 912px) and (max-width: 1368px){
+@media (min-width: 508px) and (max-width: 976px){
   #home {
-    padding-top: 0 !important; /* Adjust 64px to your navbar height */
+    padding-top: 0 !important;
     margin-top: 0 !important;
   }
 }
