@@ -66,9 +66,9 @@ const Home = () => {
       className="relative overflow-hidden pt-16 md:pt-35 pb-0"
       style={{ marginBottom: 0,  marginTop: 0 }}
     >
-      {/* <div className="absolute top-0 left-0 z-10">
+      <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="" />
-      </div> */}
+      </div>
 
       <div className="home-layout flex flex-col md:flex-row items-start md:items-start">
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5 !mb-20">
